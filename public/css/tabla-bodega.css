@@ -1,0 +1,96 @@
+.bodega-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.bodega-table th,
+.bodega-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.bodega-table th {
+    background-color: #007bff;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.bodega-table tr:hover {
+    background-color: #f1f9ff;
+    transition: background-color 0.3s;
+}
+
+.bodega-table tr:last-child td {
+    border-bottom: none;
+}
+
+.bodega-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.bodega-table td:first-child,
+.bodega-table th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.bodega-table td:last-child,
+.bodega-table th:last-child {
+    border-top-right-radius: 8px;
+}
+
+
+.bodega-table td[data-editable] input,
+.bodega-table td[data-editable] select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px 8px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* acciones */
+.bodega-table-actions {
+    display: flex;
+    gap: 0.5rem;
+    min-width: 180px; /* ajusta si es necesario */
+}
+
+.bodega-btn {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+    min-width: 80px; /* esto garantiza que todos tengan mismo ancho mínimo */
+    text-align: center;
+}
+
+.bodega-btn.edit {
+    background-color: #007bff;
+    color: white;
+}
+
+.bodega-btn.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.bodega-btn.save {
+    background-color: #28a745;
+    color: white;
+}
+
+.bodega-btn.cancel {
+    background-color: #6c757d;
+    color: white;
+}

@@ -1,0 +1,25 @@
+.container {
+    padding: 1rem;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.encaabezado {
+    margin: none;
+    padding: 0%;
+}
+
+/* forulario */
