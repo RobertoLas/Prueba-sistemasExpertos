@@ -15,3 +15,4 @@ No se utilizaron librerías externas (ni frontend ni backend).
 
 Se utilizó exclusivamente PDO (PHP Data Objects), una extensión nativa de PHP para conexión segura con bases de datos.
 
+en la carpeta bd se encuentra el EDR y el sql con los insert para correrlo en una base de datos
